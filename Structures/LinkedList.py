@@ -1,4 +1,5 @@
-from Nodes.StringNode import StringNode
+from Nodes import StringNode
+
 
 class LinkedList:
     front=None;
