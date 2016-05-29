@@ -3,16 +3,11 @@ Created on May 28, 2016
 
 @author: Marcus
 '''
-<<<<<<< HEAD
-from Nodes import *
-from Structures import LinkedList
-from Structures.LinkedList import printReverse
-=======
 
 from Structures.LinkedList import LinkedList
 from Structures.StringNode import StringNode
  
->>>>>>> 9d1c8190f4a97b7ef82d4228eaec2f60bd3855e7
+
 
 ll=LinkedList()
 print("Welcome to the terminal.")
