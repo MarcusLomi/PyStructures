@@ -3,10 +3,9 @@ Created on May 28, 2016
 
 @author: Marcus
 '''
-from Nodes import * 
-
-
-from Structures.LinkedList import *; printReverse
+from Nodes import *
+from Structures import LinkedList
+from Structures.LinkedList import printReverse
 
 ll=LinkedList()
 print("Welcome to the terminal.")
