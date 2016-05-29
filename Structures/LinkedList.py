@@ -1,7 +1,6 @@
-from Nodes import StringNode
+from Structures.StringNode import StringNode
 
-
-class LinkedList:
+class LinkedList(object):
     front=None;
     size=0;
     
@@ -53,11 +52,10 @@ class LinkedList:
             print("The list is empty")
             return True;
         
-def printReverse(f):
-    print()
-    if f==None:
-        return;
-    printReverse(f.next)
-    if f.string=="None" or f.string==None:
-        print("NIGGER WHAT THE FUCK")
-    print(f.string+" <---", end="")
+    def printReverse(self,fron):
+        if fron==None:
+            return;
+        self.printReverse(fron.next)
+        if fron.string=="None" or fron.string==None:
+            print("NIGGER WHAT THE FUCK")
+        print(fron.string+" <---", end="")

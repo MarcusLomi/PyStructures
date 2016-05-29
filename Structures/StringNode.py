@@ -1,4 +1,4 @@
-class StringNode:
+class StringNode(object):
     string="";
     next=None;
     

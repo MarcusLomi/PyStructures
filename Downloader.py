@@ -4,7 +4,6 @@ Created on May 28, 2016
 @author: Marcus
 '''
 from urllib import request
-
 import random
 
 def download_web_image(url):
