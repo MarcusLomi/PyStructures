@@ -18,6 +18,10 @@ while cont:
     if ans=='1':
         newItem=input("What value would you like to add?")
         ll.addToFront(newItem)
+    elif ans=='2':
+        newItem=input("What is the word you would like to add?\n")
+        targ=input("After which word?")
+        ll.addAfter(targ, newItem)
     elif ans=='3':
         ll.printOut()
     elif ans=='4':

@@ -57,5 +57,5 @@ class LinkedList(object):
             return;
         self.printReverse(fron.next)
         if fron.string=="None" or fron.string==None:
-            print("NIGGER WHAT THE FUCK")
+            print("Not there")
         print(fron.string+" <---", end="")
