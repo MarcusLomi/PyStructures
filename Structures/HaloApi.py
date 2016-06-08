@@ -26,7 +26,7 @@ except Exception as e:
     print("[Errno {0}] {1}".format(e.errno, e.strerror))
 
 string_dat=str(data)
-data_dict=dict(data)
+
 string_dat=string_dat.split("{")
 fw=open('haloStat.txt',"w")
 for line in string_dat:
