@@ -3,7 +3,9 @@ Created on May 28, 2016
 
 @author: Marcus
 '''
-
+import sys
+sys.path.append("C:\\Users\\Marcus\\Workspace\\PyStructures\\Structures")
+print("This worked")
 from Structures.LinkedList import LinkedList
 from Structures.StringNode import StringNode
  
