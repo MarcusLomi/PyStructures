@@ -8,6 +8,7 @@ from Structures.LinkedList import LinkedList
 from Structures.StringNode import StringNode
  
 
+
 ll=LinkedList()
 print("Welcome to the terminal.")
 cont=True
